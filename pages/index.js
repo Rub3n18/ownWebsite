@@ -32,6 +32,9 @@ export default function Index({ posts, globalData }) {
                     <p className="uppercase mb-3 font-bold opacity-60">
                       {post.data.date}
                     </p>
+                  <p className="mt-3 text-lg opacity-60">
+                      Lets see what looks better on the long run
+                  </p>
                   )}
                   <h2 className="text-2xl md:text-3xl">{post.data.title}</h2>
                   {post.data.description && (
