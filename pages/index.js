@@ -18,8 +18,12 @@ export default function Index({ posts, globalData }) {
           {globalData.blogTitle}
         </h1>
         <ul className="w-full">
-  <p className="mt-3 text-lg opacity-60"> Lets see if this works.
+
+      <div>
+  <h2>Projects</h2>
+  <p className="mt-3 text-lg"> Lets see if this works.
                     </p>
+  </div>
           {posts.map((post) => (
             <li
               key={post.filePath}
