@@ -18,6 +18,8 @@ export default function Index({ posts, globalData }) {
           {globalData.blogTitle}
         </h1>
         <ul className="w-full">
+  <p className="mt-3 text-lg opacity-60"> Lets see if this works.
+                    </p>
           {posts.map((post) => (
             <li
               key={post.filePath}
@@ -34,8 +36,7 @@ export default function Index({ posts, globalData }) {
                     </p>
                   
                   )}
-                  <p className="mt-3 text-lg opacity-60"> Lets see if this works.
-                    </p>
+                  
                   <h2 className="text-2xl md:text-3xl">{post.data.title}</h2>
                   {post.data.description && (
                     <p className="mt-3 text-lg opacity-60">
