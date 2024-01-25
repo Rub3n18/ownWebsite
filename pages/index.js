@@ -20,7 +20,8 @@ export default function Index({ posts, globalData }) {
         <ul className="w-full">
 
       <div>
-  <h2>Projects</h2>
+  <h2 className= "text-3x1 text-left">
+  <b>Projects</b></h2>
   <p className="mt-3 text-lg"> Lets see if this works.
                     </p>
   </div>
