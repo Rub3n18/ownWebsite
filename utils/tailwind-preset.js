@@ -53,7 +53,7 @@ module.exports = {
         bejamas: {
           colors: {
             primary: '#EE4E34',
-            'gradient-1': '#FCEDDA',
+            'gradient-1': '##EE4E34',
             'gradient-2': '#EE4E34',
             'gradient-3': '#EE4E34',
             'gradient-4': '#F764FF',
