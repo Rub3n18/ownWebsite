@@ -27,7 +27,7 @@ export default function Index({ posts, globalData }) {
   <b>Projects</b></h2>
   <p className="mt-3 text-lg"> Lets see if this works.
                     </p>
-  <button id="pushup">What happens</button>
+//  <button id="pushup">What happens</button>
   </div>
 //  <h3>Experience</h3>
           {posts.map((post) => (
