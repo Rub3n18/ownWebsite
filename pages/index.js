@@ -12,7 +12,7 @@ import SEO from '../components/SEO';
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
-    <NavBar title={globalData.name}>
+    <NavBar title={globalData.name}>Jose Perez
     </NavBar>
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
