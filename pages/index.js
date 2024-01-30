@@ -7,8 +7,8 @@ import Layout, { GradientBackground } from '../components/Layout';
 import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
-import styles from '..utils/styles.css';
-
+import "styles.css"
+;
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
