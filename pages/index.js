@@ -11,22 +11,19 @@ import SEO from '../components/SEO';
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
-      <ul class="menu">
-        <li><a href="#>My dashboard</a></li>
-        <li><a href="#>Projects</a></li>
-        <li><a href="#>Experience</a></li>
-        
-    
-    
-    </ul>
+      
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">
-        <h1 className="text-3xl lg:text-5xl text-center mb-12">
+        <h1 id="Title"className="text-3xl lg:text-5xl text-center mb-12">
           {globalData.blogTitle}
         </h1>
         <ul className="w-full">
-
+<ul class="menu">
+        <li><a href="#experience>My dashboard</a></li>
+        <li><a href="#Title>Top</a></li>
+     
+    </ul>
       <div>
   <h2 className= "text-9x3 text-left">
   <b>Projects</b></h2>
@@ -34,6 +31,7 @@ export default function Index({ posts, globalData }) {
                     </p>
   <button id="pushup">What happens</button>
   </div>
+  <h3 id="experience">Experience</h3>
           {posts.map((post) => (
             <li
               key={post.filePath}
