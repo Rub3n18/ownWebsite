@@ -20,10 +20,11 @@ export default function Index({ posts, globalData }) {
         <ul className="w-full">
 
       <div>
-  <h2 className= "text-3x1 text-left">
+  <h2 className= "text-9x3 text-left">
   <b>Projects</b></h2>
   <p className="mt-3 text-lg"> Lets see if this works.
                     </p>
+  <button id="pushup">What happens</button>
   </div>
           {posts.map((post) => (
             <li
