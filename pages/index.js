@@ -18,18 +18,12 @@ export default function Index({ posts, globalData }) {
           {globalData.blogTitle}
         </h1>
         <ul className="w-full">
-// <ul class="menu">
-//         <li><a href="#experience>My dashboard</a></li>
-//         <li><a href="#Title>Top</a></li>
-//     </ul>
       <div>
   <h2 className= "text-9x3 text-left">
   <b>Projects</b></h2>
   <p className="mt-3 text-lg"> Lets see if this works.
                     </p>
-//  <button id="pushup">What happens</button>
   </div>
-//  <h3>Experience</h3>
           {posts.map((post) => (
             <li
               key={post.filePath}
