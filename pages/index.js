@@ -29,7 +29,7 @@ export default function Index({ posts, globalData }) {
                     </p>
   <button id="pushup">What happens</button>
   </div>
-  <h3>Experience</h3>
+//  <h3>Experience</h3>
           {posts.map((post) => (
             <li
               key={post.filePath}
