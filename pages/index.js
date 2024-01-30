@@ -11,10 +11,6 @@ import SEO from '../components/SEO';
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
-    <ul class="menu">
-        <li><a href="#project>Projects</a></li>
-     
-    </ul>
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">
@@ -23,6 +19,10 @@ export default function Index({ posts, globalData }) {
         </h1>
         <ul className="w-full">
       <div>
+  <ul class="menu">
+        <li><a href="#project>Projects</a></li>
+     
+    </ul>
   <h3 id="project" className= "text-9x3 text-left">
   <b>Projects</b></h3>
   <p className="mt-3 text-lg"> Lets see if this works.
