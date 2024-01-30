@@ -39,6 +39,8 @@ body{
   list-style:none;
   display: flex;
   gap:1rem;
+    border-style: solid;
+  border-color: black;
 }
 .nav a {
 color:inherit;
@@ -47,6 +49,8 @@ text-decoration:none;
   display:flex;
   padding: .25rem;
   align-item:center;
+    border-style: solid;
+  border-color: black;
 }
 
 .nav li.active{
