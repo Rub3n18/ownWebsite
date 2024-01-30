@@ -1,4 +1,4 @@
-export default function(){
+export default function NavBar(){
   return <nav className="nav">
     <a href="#" className="site-title">Site Name</a>
     <ul class="menu">
