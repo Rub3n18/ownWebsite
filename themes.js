@@ -19,11 +19,11 @@ exports.COLOR_THEMES = {
   },
   netlify: {
     colors: {
-      primary: '#00A354',
-      'gradient-1': '#00F0FF',
-      'gradient-2': '#00F0FF',
-      'gradient-3': '#FAFF00',
-      'gradient-4': '#00F0FF',
+      primary: '#EE4E34',
+      'gradient-1': '#FCEDDA',
+      'gradient-2': '#FCEDDA',
+      'gradient-3': '#FCEDDA',
+      'gradient-4': '#FCEDDA',
     },
   },
   reddie: {
