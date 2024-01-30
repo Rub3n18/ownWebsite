@@ -20,11 +20,10 @@ export default function Index({ posts, globalData }) {
         <ul className="w-full">
       <div>
   <ul class="menu">
-        <li><a href="#project>Projects</li>
+        <li><a href="#project>Projects</a></li>
      
-    </ul>
-  <h3 id="project" className= "text-9x3 text-left">
-  <b>Projects</b></h3>
+  </ul>
+  <h3 id="project" className="text-9x3 text-left"><b>Projects</b></h3>
   <p className="mt-3 text-lg"> Lets see if this works.
                     </p>
   </div>
