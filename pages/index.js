@@ -19,11 +19,14 @@ export default function Index({ posts, globalData }) {
         </h1>
         <ul className="w-full">
       <div>
-  <ul class="menu">
-        <li><a href="#project">Projects</a></li>
+  // <ul class="menu">
+  //       <li><a href="#project">Projects</a></li>
      
-  </ul>
+  // </ul>
   <h3 id="project" className="text-9x3 text-left"><b>Projects</b></h3>
+  <h3 id="experience" className="text-9x3 text-left"><b>Experience</b></h3>
+  <h3 id="volunteer" className="text-9x3 text-left"><b>Volunteering</b></h3>
+  
   <p className="mt-3 text-lg"> Lets see if this works.
                     </p>
   </div>
