@@ -30,6 +30,8 @@ body{
   align-items: center;
   gap: 2rem;
   padding:0 1rem;
+  border-style: solid;
+  border-color: black;
 }
 .nav ul{
   padding:0;
