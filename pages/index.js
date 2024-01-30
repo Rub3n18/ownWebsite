@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { getPosts } from '../utils/mdx-utils';
-import navBar from '../components/NavBar';
+import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Layout, { GradientBackground } from '../components/Layout';
