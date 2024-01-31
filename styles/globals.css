@@ -23,7 +23,7 @@ body{
   
 }
 .nav{
-  background-color:#2BAE66;
+  background-color:#28FF00;
   color: black;
   display: flex;
   justify-content:space-between;
@@ -55,5 +55,5 @@ text-decoration:none;
   float:left;
 }
 .nav a:hover{
-  background-color:#CCF381;
+  background-color:#28FF00(0%,0%,25%);
 }
