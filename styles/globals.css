@@ -23,11 +23,11 @@ body{
   
 }
 .nav{
-  background-color:#EE4E34;
-  color: white;
+  background-color:#4831D4;
+  color: black;
   display: inline-flex;
   justify-content:space-between;
-  align-items: center;
+  align-items: right;
   gap: 2rem;
   padding:0 1rem;
   position: fixed;
@@ -46,7 +46,8 @@ body{
 color:inherit;
 text-decoration:none;
   height:100%;
-  display:flex;
+  width: 60px;
+  display:block;
   padding: .25rem;
   align-item:center;
     border-style: solid;
