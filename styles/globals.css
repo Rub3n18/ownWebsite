@@ -23,11 +23,11 @@ body{
   
 }
 .nav{
-  background-color:#4831D4;
+  background-color:#CCF381;
   color: black;
-  display: inline-flex;
+  display: block;
   justify-content:space-between;
-  align-items: right;
+  align-items: left;
   gap: 2rem;
   padding:0 1rem;
   position: fixed;
@@ -50,8 +50,7 @@ text-decoration:none;
   display:block;
   padding: .25rem;
   align-item:center;
-    border-style: solid;
-  border-color: black;
+
 }
 
 .nav li.active{
