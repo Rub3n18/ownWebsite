@@ -33,6 +33,7 @@ body{
   position: fixed;
   top:0;
   overflow:hidden;
+  width:100%;
 }
 .nav ul{
   padding:0;
