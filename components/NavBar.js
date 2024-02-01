@@ -1,6 +1,7 @@
+import house from '..components/house'
 export default function NavBar(){
   return <nav className="nav">
-    <a href="#" className="site-title">Home</a>
+    <a href="#" className="site-title">{house}</a>
     
     <ul class="menu">
       
