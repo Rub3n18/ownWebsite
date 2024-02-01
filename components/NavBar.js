@@ -1,4 +1,4 @@
-import house from '..components/house.png'
+import house from '../components/house.png'
 export default function NavBar(){
   return <nav className="nav">
     <a href="#" className="site-title"><img src={house} alt ="House"/></a>
