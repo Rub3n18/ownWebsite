@@ -25,7 +25,7 @@ export default function Index({ posts, globalData }) {
     
   <h3 id="experience" className="text-9x3 text-left"><b>Experience</b></h3>
   <h3 id="project" className="text-9x3 text-left"><b>Projects</b></h3>
-  <h3 id="volunteer" className="text-9x3 text-left"><b>Volunteering</b></h3>'
+  <h3 id="volunteer" className="text-9x3 text-left"><b>Volunteering</b></h3>
   <p className="mt-3 text-lg"></p>
   </div>
         </ul>
