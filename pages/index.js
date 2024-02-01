@@ -7,12 +7,12 @@ import Layout, { GradientBackground } from '../components/Layout';
 import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
-
+import house form '..components/house';
 
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
-    <NavBar title={globalData.name}>Jose Perez
+    <NavBar>
     </NavBar>
      // <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
