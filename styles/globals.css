@@ -57,3 +57,7 @@ text-decoration:none;
 .nav a:hover{
   background-color:#4aff29;
 }
+.site img{
+  height:100%;
+  width:100%;
+}
