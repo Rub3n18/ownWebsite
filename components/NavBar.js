@@ -1,7 +1,7 @@
 import house from '..components/house.png'
 export default function NavBar(){
   return <nav className="nav">
-    <a href="#" className="site-title">{house}</a>
+    <a href="#" className="site-title"><img src={house alt =""House}/></a>
     
     <ul class="menu">
       
