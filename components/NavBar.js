@@ -1,4 +1,4 @@
-import house from '../components/house.png'
+import {ReactComponent as house} from '../components/house.png'
 export default function NavBar(){
   return <nav className="nav">
     <div className="container">
