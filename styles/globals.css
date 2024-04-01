@@ -45,10 +45,11 @@ body{
   gap:1rem;
   
 }
+/*
 .nav-elements ul a.active{
   color:574c4c;
   
-}
+}*/
 .nav a {
 color:inherit;
 text-decoration:none;
