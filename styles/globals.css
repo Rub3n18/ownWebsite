@@ -39,9 +39,14 @@ body{
 .nav ul{
   padding:0;
   margin:0;
+  justify-content:space-between;
   list-style:none;
   display: flex;
   gap:1rem;
+  
+}
+.nav-elements ul a.active{
+  color:574c4c;
   
 }
 .nav a {
