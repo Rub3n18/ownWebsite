@@ -36,9 +36,16 @@ body{
   background-color:#fef7e5;
   justify-content:space-between;
   overflow:hidden;
+  color:black;
+  align-items: left;
+  gap:2rem;
+  padding: 0 1rem;
+  top:0;
+  width:100%;
+  position:fixed;
 }
 .logo{}
-.nav-elements ul{
+.nav ul{
   justify-content:space-between;
   list-style:none;
   display: flex;
