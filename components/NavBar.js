@@ -5,7 +5,6 @@ export default function NavBar(){
     <div className="logo">
       <house />
     </div>
-    /*<a href="#" className="site"><img src={house}/></a>*/
     <div className="nav-elements">
     <ul class="menu">
       
