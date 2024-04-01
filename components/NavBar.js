@@ -5,10 +5,10 @@ export default function NavBar(){
     
     <ul class="menu">
       
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#project">Projects</a></li>
-        <li><a href="#volunteer">Volunteer</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a class="active" href="#experience">Experience</a></li>
+        <li><a class="active" href="#project">Projects</a></li>
+        <li><a class="active" href="#volunteer">Volunteer</a></li>
+        <li><a class="active" href="#contact">Contact</a></li>
      
     </ul>
     </nav>
