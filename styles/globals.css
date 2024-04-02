@@ -37,8 +37,10 @@ body{
   height: 0px;
   justify-content:space-between;
   overflow:hidden;
-  position:fixed;
+  position:sticky;
   color:black;
+  align-items: left;
+  gap:2rem;
   top:0;
   width:100%;
   
