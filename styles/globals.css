@@ -37,7 +37,7 @@ body{
   height: 0px;
   justify-content:space-between;
   overflow:hidden;
-  position:relative;
+  position:fixed;
   color:black;
   top:0;
   width:100%;
