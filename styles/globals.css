@@ -20,6 +20,7 @@ body {
 }
 body{
   margin: 0;
+  padding:0;
   
 }
 .container {
@@ -30,6 +31,7 @@ body{
   justify-content: space-between;
   height: 100%;
   align-items:center;
+  width:100%;
  
 }
 .nav{
@@ -58,16 +60,7 @@ text-decoration:none;
   font-weight:400;
   color:#2f234f;
 }
-.nav-elements a.active{
-  color:#574c4c;
+.nav-elements a.hover{
+  background-color:#574c4c;
   position:relative;
-}
-.nav-elements ul a.active::after {
-  content: '';
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #574c4c;
 }
