@@ -23,13 +23,11 @@ body{
   
 }
 .container {
-  position:fixed;
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   height: 100%;
 }
 .nav{
@@ -62,5 +60,5 @@ text-decoration:none;
   color:#2f234f;
 }
 .nav a:hover{
-  background-color:#4574c4;
+  background-color:#574c4c;
 }
