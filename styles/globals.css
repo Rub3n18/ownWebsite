@@ -35,14 +35,9 @@ body{
 .nav{
   background-color:#fef7e5;
   height: 60px;
-  justify-content:space-between;
   overflow:hidden;
   position:fixed;
   color:black;
-  align-items: left;
-  gap:2rem;
-  top:0;
-  width:100%;
   
 }
 .logo{}
