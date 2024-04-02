@@ -37,7 +37,7 @@ body{
   height: 0px;
   justify-content:space-between;
   overflow:hidden;
-  position:sticky;
+  position:relative;
   color:black;
   align-items: left;
   gap:2rem;
@@ -64,5 +64,4 @@ text-decoration:none;
 }
 .nav a:hover{
   background-color:#574c4c;
-  font-weight:500;
 }
