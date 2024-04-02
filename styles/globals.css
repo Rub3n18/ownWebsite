@@ -29,18 +29,19 @@ body{
   display: flex;
   justify-content: space-between;
   height: 100%;
+  align-items:center;
+ 
 }
 .nav{
   background-color:#fef7e5;
+  height: 0px;
   justify-content:space-between;
   overflow:hidden;
+  position:sticky;
   color:black;
-  align-items: left;
-  gap:2rem;
-  padding: 0 1rem;
   top:0;
   width:100%;
-  position:fixed;
+  
 }
 .logo{}
 .nav ul{
@@ -61,4 +62,5 @@ text-decoration:none;
 }
 .nav a:hover{
   background-color:#574c4c;
+  font-weight:500;
 }
