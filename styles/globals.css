@@ -40,7 +40,8 @@ body{
   height: 40px;
   position:fixed;
   display:flex;
-  width:100%
+  width:100%;
+  
 }
 .logo{}
 .nav ul a{
@@ -52,13 +53,14 @@ body{
   justify-content:space-evenly;
   display:flex;
   height:100%;
-  margin-left: 10px;
+  
   
 }
 .nav ul{
   justify-content:space-evenly;
   list-style:none;
   display: flex;
+  margin-left:auto;
   /*margin:center;*/
   
 }
