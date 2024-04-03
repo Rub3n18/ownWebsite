@@ -28,7 +28,7 @@ body{
   margin: 0 auto;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   height: 100%;
   align-items:center;
   width:100%;
@@ -52,7 +52,7 @@ body{
   justify-content:space-between;
   display:flex;
   height:100%;
-  margin-right: 10px;
+  margin-left: 10px;
   
 }
 .nav ul{
@@ -73,6 +73,7 @@ text-decoration:none;
 }
 .nav a:hover{
   background-color:#574c4c;
+  color:#FFFFFF;
   position:relative;
   
 }
