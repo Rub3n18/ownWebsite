@@ -49,17 +49,17 @@ body{
   font-weight:600;
   color: #2f234f;
   text-decoration:none;
-  justify-content:space-between;
+  justify-content:space-evenly;
   display:flex;
   height:100%;
   margin-left: 10px;
   
 }
 .nav ul{
-  justify-content:space-between;
+  justify-content:space-evenly;
   list-style:none;
   display: flex;
-  margin:center;
+  /*margin:center;*/
   
 }
 .nav a {
