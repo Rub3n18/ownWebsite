@@ -33,6 +33,7 @@ body{
   align-items:right;
   width:100%;
  
+ 
 }
 .nav{
   background-color:#fef7e5;
@@ -43,6 +44,7 @@ body{
 }
 .logo{}
 .nav ul a{
+  font-family:Lato;
   font-size:24px;
   font-weight:400;
   color: #2f234f;
