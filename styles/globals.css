@@ -53,6 +53,7 @@ body{
   justify-content:space-evenly;
   display:flex;
   height:100%;
+  margin-right:10px;
   
   
 }
@@ -72,6 +73,7 @@ text-decoration:none;
   color:#2f234f;
   display:flex;
   height:100%;
+  margin-right: 10px;
 }
 .nav a:hover{
   background-color:#574c4c;
