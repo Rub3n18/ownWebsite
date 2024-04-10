@@ -1,6 +1,6 @@
 .colorBackground {
   left: 50%;
-  transform: translateX(-50%);
+/*  transform: translateX(-50%);*/
   background-color:#faf0ca;
 
 /*   background: radial-gradient(
@@ -14,9 +14,9 @@
     radial-gradient(at 73% 44%, var(--color-gradient-2) 0, transparent 54%),
     radial-gradient(at 24% 7%, var(--color-gradient-2) 0, transparent 40%),
     radial-gradient(at 76% 46%, var(--color-gradient-1) 0, transparent 50%); */
-  /* mix-blend-mode: normal; */
+  mix-blend-mode: normal; 
   max-height: 800px;
-  height: 80vh;
+  height: 100vh;
   max-width: 1400px;
   width: 70vw;
   width: 100%;
