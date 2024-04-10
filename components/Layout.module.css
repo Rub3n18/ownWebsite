@@ -1,7 +1,7 @@
 .colorBackground {
   left: 50%;
   transform: translateX(-50%);
-  background-color:#00539C;
+  background-color:#faf0ca;
 
 /*   background: radial-gradient(
       at 71% 77%,
@@ -20,7 +20,7 @@
   max-width: 1400px;
   width: 70vw;
   width: 100%;
-  filter: blur(44px);
+  /*filter: blur(44px);*/
   z-index: -1;
 }
 
